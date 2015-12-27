@@ -1,0 +1,33 @@
+{
+  "name": "nock-playback",
+  "version": "1.0.0",
+  "description": "Small helper for nock library to record definitions and play it back",
+  "main": "./lib/playback.js",
+  "scripts": {
+    "test": "npm test",
+    "jshint": "jshint lib || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hassansin/nock-playback.git"
+  },
+  "keywords": [
+    "nock",
+    "record",
+    "playback",
+    "fixtures"
+  ],
+  "author": "Hassansin <rezatxe@gmail.com> (https://github.com/hassansin)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hassansin/nock-playback/issues"
+  },
+  "homepage": "https://github.com/hassansin/nock-playback#readme",
+  "dependencies": {
+    "fs-extra": "^0.26.3",
+    "nock": "^3.6.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.8.0"
+  }
+}

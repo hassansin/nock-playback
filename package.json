@@ -1,6 +1,6 @@
 {
   "name": "nock-playback",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Small helper for nock library to record definitions and play it back",
   "main": "./lib/playback.js",
   "scripts": {

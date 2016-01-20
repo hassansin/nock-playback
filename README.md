@@ -43,4 +43,6 @@ describe('Module', function(){
 
 `playback.defaults.afterCallback`: suite cleanup callback. default `after`
 
+`playback.defaults.ifPendingFail`:  (bool) any pending nocks should fail the suite.  default `false`
+
 
